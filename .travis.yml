@@ -7,4 +7,4 @@ install:
   - pip install tweepy
   - pip install textblob
 # command to run tests
-script: twitterAnalyzing
+

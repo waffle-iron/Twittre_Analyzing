@@ -8,4 +8,4 @@ install:
   - pip install textblob
 # command to run tests
 
-script: twitterAnalyzing.py
+script: python3 twitterAnalyzing.py

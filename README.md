@@ -1,6 +1,7 @@
 # Twittre_Analyzing
 [![PyPI version](https://badge.fury.io/py/tweepy.svg)](https://badge.fury.io/py/tweepy)
 [![PyPI version](https://badge.fury.io/py/textblob.svg)](https://badge.fury.io/py/textblob)
+[![Build Status](https://travis-ci.org/essank/Twittre_Analyzing.svg?branch=master)](https://travis-ci.org/essank/Twittre_Analyzing)
 
 ##requirements:
 you sould install [tweepy](http://www.tweepy.org/) 

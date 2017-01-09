@@ -1,10 +1,20 @@
-# asking how many bagels will be there
-numberOfBagels = 23
 
-# if number of bagels 12 or more it will multiply the number and .60
-if numberOfBagels >= 12:
-    print ("Cost is ", "$", "{0:.2f}".format(round(numberOfBagels * .60 ,2)), ".", sep="")
+import tweepy
+from textblob import TextBlob
 
-# if number of bagels less than 12 it will multiply the number and .75
-else:
-    print ("Cost is ", "$", "{0:.2f}".format(round(numberOfBagels * .75 ,2)), ".", sep="")
+consumer_key = 'CONSUMER_KEY_HERE'
+consumer_secret = 'CONSUMER_SECRET_HERE'
+access_token = 'ACCESS_TOKEN_HERE'
+access_token_secret = 'ACCESS_TOKEN_SECRET_HERE'
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+api = tweepy.API(auth)
+
+public_tweets = api.search('Trump')
+
+for tweet in public_tweets:
+    print(tweet.text)
+    analysis = TextBlob(tweet.text)
+    print(analysis.sentiment)

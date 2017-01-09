@@ -1,5 +1,5 @@
 # asking how many bagels will be there
-numberOfBagels = int(input("Enter number of bagels: "))
+numberOfBagels = 23
 
 # if number of bagels 12 or more it will multiply the number and .60
 if numberOfBagels >= 12:

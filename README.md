@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/essank/Twittre_Analyzing.png?label=ready&title=Ready)](https://waffle.io/essank/Twittre_Analyzing)
 # Twittre_Analyzing
 [![PyPI version](https://badge.fury.io/py/tweepy.svg)](https://badge.fury.io/py/tweepy)
 [![PyPI version](https://badge.fury.io/py/textblob.svg)](https://badge.fury.io/py/textblob)
